@@ -9,5 +9,5 @@ jobs:
     steps:
       - name: Ping Supabase
         run: |
-          curl -fsS "${{ secrets.SUPABASE_URL }}/rest/v1/courses?select=*&limit=1" \
-            -H "apikey: ${{ secrets.SUPABASE_KEY }}"
+          curl -fsS "https://oynftineputxikbleedj.supabase.co/rest/v1/courses?select=*&limit=1" \
+            -H "apikey: sb_publishable_njn8JlPxMiKhCw1tFBtqew_2ZE-hWLF"
